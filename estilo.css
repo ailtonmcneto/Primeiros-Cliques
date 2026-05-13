@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #f8f0e5;
     font-family: 'Poppins', sans-serif; 
+    padding-top: 80px;
 }
 
 nav {
@@ -9,9 +10,16 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: relative;
     padding: 10px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #f8f0e5;
+    width: 100%;
+    box-shadow: 0 3px 8px rgba(0,0,0, 0.08);
 }
+
 
 .navegacao {
     text-decoration: none;
@@ -22,7 +30,6 @@ nav {
     margin-top: 20px;
     margin-left: 40px;
 }
-
 
 .navegacao:hover {
     text-decoration: underline;
@@ -113,10 +120,10 @@ section p {
     color: white;
     font-size: 19px;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 #botaotrilhas:hover {
     cursor: pointer;
     background-color: rgb(20, 77, 77);
-    
 }
