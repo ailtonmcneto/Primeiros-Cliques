@@ -154,7 +154,7 @@ Durante o desenvolvimento, foram aplicados os seguintes conceitos de front-end:
 
 <div align="center">
 
-**Ailton** — Estudante de Ciência da Computação
+**Ailton, Luiz Felipe, Miguel Tavares** — Estudantes de Ciências da Computação
 
 *"Construído com dedicação, propósito social e muita vontade de aprender."*
 
